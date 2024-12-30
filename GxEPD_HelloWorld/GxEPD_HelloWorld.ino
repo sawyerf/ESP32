@@ -77,9 +77,9 @@
 //#include <GxGDEW042T2/GxGDEW042T2.h>      // 4.2" b/w
 //#include <GxGDEW042Z15/GxGDEW042Z15.h>    // 4.2" b/w/r
 //#include <GxGDEW0583T7/GxGDEW0583T7.h>    // 5.83" b/w
-//#include <GxGDEW075T8/GxGDEW075T8.h>      // 7.5" b/w
-//#include <GxGDEW075T7/GxGDEW075T7.h>      // 7.5" b/w 800x480
-#include <GxGDEW075Z09/GxGDEW075Z09.h>    // 7.5" b/w/r
+// #include <GxGDEW075T8/GxGDEW075T8.h>      // 7.5" b/w
+#include <GxGDEW075T7/GxGDEW075T7.h>      // 7.5" b/w 800x480
+// #include <GxGDEW075Z09/GxGDEW075Z09.h>    // 7.5" b/w/r
 // #include <GxGDEW075Z08/GxGDEW075Z08.h>    // 7.5" b/w/r 800x480
 
 #include GxEPD_BitmapExamples
@@ -139,7 +139,7 @@ void setup()
 
 void loop() {};
 
-const char HelloWorld[] = "Hello World!";
+const char HelloWorld[] = "Ta mere la poney !";
 
 void drawHelloWorld()
 {
